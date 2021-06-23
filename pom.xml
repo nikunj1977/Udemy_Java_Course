@@ -19,6 +19,18 @@
             </plugin>
         </plugins>
     </build>
+<dependencies>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.0.0-beta-4</version>
+    </dependency>
+    <dependency>
+        <groupId>Complete_JAVA-Udemy_Course</groupId>
+        <artifactId>Udeny_JAVA</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
 
+</dependencies>
 
 </project>

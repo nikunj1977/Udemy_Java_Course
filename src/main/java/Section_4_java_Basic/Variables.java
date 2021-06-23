@@ -5,19 +5,19 @@ import java.util.Arrays;
 public class Variables {
 
     public static void main(String[] args) {
-        Variables var = new Variables();
+
 
         String[] arra1 = new String[]{"Nikunj", "Bambhroliya"};
 
-        var.copyArrays(arra1);
+       copyArrays(arra1);
 
-        var.caseSelection(3);
+       caseSelection(3);
 
 
     }
 
 
-    public void copyArrays(String[] arr) {
+    public static void copyArrays(String[] arr) {
         //int [] arr2 = new int[arr.length];
 
         String[] arr2 = Arrays.copyOf(arr, arr.length);
@@ -28,7 +28,7 @@ public class Variables {
 
     }
 
-    public void caseSelection(int monthNumber) {
+    public static void caseSelection(int monthNumber) {
 
         int month = monthNumber;
         String monthName;
